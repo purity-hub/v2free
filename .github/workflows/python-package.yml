@@ -8,6 +8,9 @@ on:
 
 jobs:
   build:
+    env:
+      EMAIL: ${{ EMAIL }}
+      PASSWORD: ${{ PASSWORD }}
 
     runs-on: ubuntu-latest
 
