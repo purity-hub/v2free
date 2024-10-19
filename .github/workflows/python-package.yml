@@ -12,6 +12,7 @@ jobs:
       EMAIL: ${{ vars.EMAIL }}
       PASSWORD: ${{ vars.PASSWORD }}
       BASE_URL: ${{ vars.BASE_URL }}
+      SCKEY: ${{ vars.SCKEY }}
 
     runs-on: ubuntu-latest
 
