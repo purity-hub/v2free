@@ -11,6 +11,7 @@ jobs:
     env:
       EMAIL: ${{ vars.EMAIL }}
       PASSWORD: ${{ vars.PASSWORD }}
+      BASE_URL: ${{ vars.BASE_URL }}
 
     runs-on: ubuntu-latest
 
