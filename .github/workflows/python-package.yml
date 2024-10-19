@@ -9,8 +9,8 @@ on:
 jobs:
   build:
     env:
-      EMAIL: ${{ secrets.EMAIL }}
-      PASSWORD: ${{ secrets.PASSWORD }}
+      EMAIL: ${{ vars.EMAIL }}
+      PASSWORD: ${{ vars.PASSWORD }}
 
     runs-on: ubuntu-latest
 
